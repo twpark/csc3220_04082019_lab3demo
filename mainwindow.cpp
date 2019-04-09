@@ -3,9 +3,13 @@
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::MainWindow)
+    ui(new Ui::MainWindow),
+    reservationDetails(new ReservationDetails)
 {
     ui->setupUi(this);
+
+    //reservationDetails = new ReservationDetails();
+
 }
 
 MainWindow::~MainWindow()

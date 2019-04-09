@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "reservationdetails.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -17,6 +19,7 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    ReservationDetails *reservationDetails;
 };
 
 #endif // MAINWINDOW_H
